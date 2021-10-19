@@ -19,7 +19,7 @@
                         <div class="form-group col-md-6">
                             <label>Birt of Year</label>
                             <input type="text" v-model="person.birth" class="form-control"
-                                   placeholder="birth of year bitte...">
+                                   placeholder="birth of year...">
                         </div>
                         <div class="form-group col-md-6">
                             <label>City </label>
