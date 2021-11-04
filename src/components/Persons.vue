@@ -4,7 +4,7 @@
         <hr>
         <div class="row product-container">
             <Person v-for="person in personList" :key="person.index">
-                <img class="card-img-top" :src="person.selectedImage" :alt="person.name">
+                <img  style="width:100px;" class="img-responsive text-center m-3 mb-0" :src="person.selectedImage == null ? '/default.png' : person.selectedImage" :alt="person.name">
                 <div class="card-body">
                     <h5 class="card-title"> {{ person.name }} </h5>
                     <small><strong>Name : </strong> {{ person.name }}</small>
