@@ -46,9 +46,8 @@
     }
 
     .product-container {
-        display: flex;
-        justify-content: center;
         
+        margin-left: 15px;
     }
 
 </style>
