@@ -17,7 +17,7 @@
                     </div>
                     <div class="row">
                         <div class="form-group col-md-6">
-                            <label>Birt of Year</label>
+                            <label>Birth of Year</label>
                             <input type="text" v-model="person.birth" class="form-control"
                                    placeholder="birth of year...">
                         </div>
