@@ -46,7 +46,9 @@
     }
 
     .product-container {
-        margin-left: 15px;
+        display: flex;
+        justify-content: center;
+        
     }
 
 </style>
